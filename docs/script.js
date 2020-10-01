@@ -6,7 +6,7 @@ heading.innerHTML = "RestCountries & Weather using fetch API";
 col.append(heading);
 row.append(col);
 
-let API_KEY = process.env.API_KEY;
+let API_KEY = secrets.API_KEY;
 
 let modal = createDiv("modal fade");
 modal.id = "exampleModal";
