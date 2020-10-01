@@ -1,0 +1,43 @@
+body {
+  background: #121213;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+}
+
+.card {
+  margin: 5px 0;
+  border: 1px grey solid;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.card-header {
+  background-color: black;
+  color: white;
+}
+
+.card-img-top {
+  margin-bottom: 15px;
+}
+
+.card-body {
+  background: linear-gradient(to right, rgb(207, 205, 205), #565757);
+  color: #fff;
+}
+
+.text-muted {
+  color: #fff !important;
+}
+
+.btn {
+  margin: 5px;
+}
