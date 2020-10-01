@@ -6,7 +6,7 @@ heading.innerHTML = "RestCountries & Weather using fetch API";
 col.append(heading);
 row.append(col);
 
-let API_KEY = config.API_KEY;
+let API_KEY = process.env.API_KEY;
 
 let modal = createDiv("modal fade");
 modal.id = "exampleModal";
@@ -64,9 +64,9 @@ async function fetchData() {
       let latlng = createPara(
         "card-text",
         "lat: " +
-          responseData[i].latlng[0] +
-          ", lng: " +
-          responseData[i].latlng[1]
+        responseData[i].latlng[0] +
+        ", lng: " +
+        responseData[i].latlng[1]
       );
       let a = createA(
         responseData[i].flag,
